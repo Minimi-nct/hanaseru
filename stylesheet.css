@@ -1,0 +1,130 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+header{
+  height:90px;
+  background-color: #26d0c9;
+  color:#fff;
+
+}
+.header-list a{
+  float: left;
+  display: flex;
+  color:white;
+  padding:20px 50px 20px 50px;
+  border:1px solid white;
+  margin-top: 10px;
+}
+
+.header-logo{
+  font-size:30px;
+  padding:20px 20px;
+  float:left;
+}
+form{
+  margin-top: 25px;
+  margin-right:5px;
+  float:right;
+
+}
+.sample2Text {
+  width              : 210px;            /* inputの幅           */
+  background-image : url(http://www.sozaibokujo.com/wp-content/uploads/2017/07/icon_loupe_K_256.png);  /* 背景画像：虫眼鏡(*1)*/
+  background-repeat  : no-repeat;        /* 背景は繰り返さない  */
+  background-position: 8px center;       /* 背景の位置          */
+  background-size    : auto 60%;         /* 背景のサイズ        */
+  background-color   : #fff;             /* 背景色              */
+  margin             : 0 auto;           /* サンプルは中央寄せ  */
+  padding-left       : 30px;             /* 虫眼鏡分の左余白    */
+  border             : 2px solid #666;   /* 枠線　幅,実践,色    */
+  border-radius      : 6px;              /* 角丸                */
+  color              : #555;             /* 文字色              */
+  font-size          : 18px;             /* フォントサイズ      */
+  letter-spacing     : 0.1em;            /* 文字間隔            */
+  font-weight        : bold;             /* 太字                */
+  outline            : 0;                /* 入力薄枠を非表示    */
+}
+
+ /* === テキスト入力欄にフォーカスか来たとき ================== */
+.sample2Text:focus {
+  background-color     : #cfe7ff;        /* フォーカス時背景色  */
+}
+
+ /* === IEの入力エリア右側×消し ============================== */
+.sample2Text::-ms-clear {
+  display        : none;                 /* ×を消す            */
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper{
+  padding:180px 0 100px 0;
+  background-image:url(https://www.pakutaso.com/shared/img/thumb/012stockphoto_TP_V.jpg);
+  background-size: cover;
+  color:#26d0c9;
+  text-align:center;
+}
+.top-wrapper h1,h2,p{
+  opacity: 0.7;
+  letter-spacing:10px;
+}
+.top-wrapper h1{
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+
+.top-wrapper p{
+  margin:50px;
+}
+.lesson-wrapper {
+ height: 500px;
+ padding-bottom: 80px;
+ background-color: #fff;
+ /* text-alignをcenterに指定してください */
+ text-align:center;
+}
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #555;
+}
+
+.heading p {
+  font-weight: normal;
+}
+
+.lesson{
+  float: left;
+  width: 30%;
+  margin-left: 200px;
+  display: flex;
+}
+.lessons a{
+  color:#555;
+}
+.lesson-icon{
+  position: relative;
+}
+.lesson-icon p{
+  position: absolute;
+  top:90px;
+  width: 100%;
